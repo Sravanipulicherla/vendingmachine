@@ -1,0 +1,3 @@
+C:\Users\pulis\source\repos\vendingmachine\obj\Debug\vendingmachine.csproj.AssemblyReference.cache
+C:\Users\pulis\source\repos\vendingmachine\obj\Debug\vendingmachine.csproj.SuggestedBindingRedirects.cache
+C:\Users\pulis\source\repos\vendingmachine\obj\Debug\vendingmachine.csproj.CoreCompileInputs.cache
