@@ -8,11 +8,12 @@ namespace vendingmachine
 {
 	internal class Program
 	{
-		CoolDrinks A1 = new CoolDrinks();
-		 void Main(string[] args)
+
+		static void Main(string[] args)
 		{
 			assign_data();
 			int moneypost = 0;
+
 			while (true)
 			{
 				Console.WriteLine("Hello dear customer!!");
@@ -68,7 +69,6 @@ namespace vendingmachine
 					switch (productchoice)
 					{
 						case "A1":
-							int amount= A1.price();
 							break;
 					}
 				}              
@@ -82,10 +82,10 @@ namespace vendingmachine
 			{ }
 
 		}
-		public void assign_data()
+		public static void assign_data()
 		{
-			
 
+			CoolDrinks A1 = new CoolDrinks();
 			A1.name = "pepsi";
 			Console.WriteLine(A1.usage);
 			Console.WriteLine(A1.price = "10kr");
